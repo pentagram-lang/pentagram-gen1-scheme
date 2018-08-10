@@ -1,0 +1,27 @@
+area /= rectangle />
+  rectangle.width rectangle.height *
+
+perimeter /= rectangle />
+  rectangle.width rectangle.height + 2 *
+
+paint-buckets-needed /= rectangles =>
+  perimeter-paint /= rectangle />
+    perimiter-width = 2
+    rectangle perimeter 4 +
+      perimiter-width *
+  rectangles sum: rectangle />
+    bucket-size = 5
+    buckets =
+      rectangle dup area perimeter-paint +
+      bucket-size /
+    buckets
+
+make-rectangle /= width height /> :
+  = width
+  = height
+
+make-square /= dup make-rectangle
+
+rectangles = [20 40 make-rectangle 80 make-square]
+
+'I need [rectangles paint-buckets-needed] buckets of paint' say

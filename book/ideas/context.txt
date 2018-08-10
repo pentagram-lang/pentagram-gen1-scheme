@@ -1,0 +1,11 @@
+@context{The block structure of Tacit code is inspired largely by the Python programming language.}
+
+@context{The format of Tacit expressions is inspired by the Forth programming language.}
+
+@context{Perl is a language that eschews consistency because that's how natural languages work.}
+
+@context{Another principle of Perl is how common things should be easy to say.}
+
+@context{The type inference of Tacit is inspired by Haskell.}
+
+@context{Haskell if a compiler can't tell the types.}
